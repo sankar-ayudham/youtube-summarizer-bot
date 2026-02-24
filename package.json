@@ -1,0 +1,22 @@
+{
+  "name": "youtube-summarizer-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that summarizes YouTube videos",
+  "type": "module",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^4.52.0",
+    "youtube-transcript": "^1.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
