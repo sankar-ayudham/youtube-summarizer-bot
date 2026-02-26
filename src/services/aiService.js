@@ -14,7 +14,9 @@ const LANG_NAMES = {
 export class AIService {
   constructor() {
     this.client = new OpenAI({
-      apiKey: process.env.OPENROUTER_API_KEY,
+      apiKey:
+        "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",
+      baseURL: "https://openrouter.ai/api/v1",
       defaultHeaders: {
         "HTTP-Referer": "https://github.com/youtube-summarizer-bot",
         "X-Title": "YouTube Summarizer Bot",
