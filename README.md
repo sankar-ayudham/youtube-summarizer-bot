@@ -2,11 +2,6 @@
 
 > **Eywa SDE Intern Assignment** — A smart Telegram bot that summarizes YouTube videos, enables Q&A, and supports English + Hindi using AI.
 
-## 🎬 Demo Video
-
-[▶️ Watch Demo Video](https://youtu.be/YOUR_VIDEO_LINK_HERE)
-
----
 
 ## 📸 Screenshots
 
